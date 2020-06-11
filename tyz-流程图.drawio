@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-11T09:58:18.646Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 YaBrowser/20.6.1.115 (beta) Yowser/2.5 Safari/537.36" etag="VyBTbkKNB_EVvl9T8MBF" version="13.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-11T09:58:30.312Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 YaBrowser/20.6.1.115 (beta) Yowser/2.5 Safari/537.36" etag="joltx7VhUUZyO_oeT6vt" version="13.2.1" type="github">
   <diagram id="Wl1f3BuuBHUOXUHPtb7v" name="Hystrix流程图">
     <mxGraphModel dx="1102" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,7 +415,7 @@
         <mxCell id="GamSNAmJj3X3mlx08znm-21" value="execute()：同步方法，内部实际调用了 queue().get() 获得最终的值；&lt;br&gt;queue()：异步方法，内部实际调用了 toObservable().toBlocking().toFuture() 来获取Future，以便后续使用；&lt;br&gt;observe()：内部实际上使用 toObservable() 方法获取cold Observable，然后ReplaySubject来订阅Observable，得到一个hot Observable；&lt;br&gt;toObservable()：所有其他三个方法都需要调用这个方法获取cold Observable。&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=1;shadow=1;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="860" y="500" width="690" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="GamSNAmJj3X3mlx08znm-22" value="subscribe(ReplaySubject&amp;lt;R&amp;gt; s)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=1;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="GamSNAmJj3X3mlx08znm-22" value="subscribe(ReplaySubject&amp;lt;R&amp;gt; s)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1080" y="350" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-23" value="返回" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#82b366;shadow=0;labelBackgroundColor=none;fontSize=11;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;" edge="1" source="GamSNAmJj3X3mlx08znm-22" parent="1" target="GamSNAmJj3X3mlx08znm-16">
