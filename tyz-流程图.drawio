@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-12T01:17:24.588Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 YaBrowser/20.6.1.115 (beta) Yowser/2.5 Safari/537.36" etag="977vKFMcY3Q7ocIZVVzb" version="13.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-12T01:41:04.248Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 YaBrowser/20.6.1.115 (beta) Yowser/2.5 Safari/537.36" etag="YEtaKTkatC7C-0v6vZIs" version="13.2.3" type="github">
   <diagram id="Wl1f3BuuBHUOXUHPtb7v" name="Hystrix流程图">
     <mxGraphModel dx="1102" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -263,31 +263,31 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WV5xRuBxVTjv_hprlLnL-2" value="&lt;b&gt;1&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="WV5xRuBxVTjv_hprlLnL-2" value="&lt;b&gt;1&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="370" y="70" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WV5xRuBxVTjv_hprlLnL-3" value="&lt;b&gt;2&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="WV5xRuBxVTjv_hprlLnL-3" value="&lt;b&gt;2&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="100" y="180" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WV5xRuBxVTjv_hprlLnL-4" value="&lt;b&gt;3&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="WV5xRuBxVTjv_hprlLnL-4" value="&lt;b&gt;3&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="620" y="350" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WV5xRuBxVTjv_hprlLnL-5" value="&lt;b&gt;4&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="WV5xRuBxVTjv_hprlLnL-5" value="&lt;b&gt;4&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="460" y="350" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WV5xRuBxVTjv_hprlLnL-6" value="&lt;b&gt;5&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="WV5xRuBxVTjv_hprlLnL-6" value="&lt;b&gt;5&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="280" y="350" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WV5xRuBxVTjv_hprlLnL-7" value="&lt;b&gt;6&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="WV5xRuBxVTjv_hprlLnL-7" value="&lt;b&gt;6&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="90" y="390" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WV5xRuBxVTjv_hprlLnL-8" value="&lt;b&gt;7&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="WV5xRuBxVTjv_hprlLnL-8" value="&lt;b&gt;7&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="410" y="270" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WV5xRuBxVTjv_hprlLnL-9" value="&lt;b&gt;8&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="WV5xRuBxVTjv_hprlLnL-9" value="&lt;b&gt;8&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="460" y="470" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WV5xRuBxVTjv_hprlLnL-10" value="&lt;b&gt;9&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="WV5xRuBxVTjv_hprlLnL-10" value="&lt;b&gt;9&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="460" y="670" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WV5xRuBxVTjv_hprlLnL-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;1. 构造一个HystrixCommand或HystrixObservableCommand；&lt;br&gt;2. 执行相应的方法，实际上最终都需要调用toObservable()，结果被转化成Observable；&lt;br&gt;3. 判断结果是否在缓存中，如果缓存中有对应结果则直接返回，如果没有则进行第4步；&lt;br&gt;4. 判断熔断器是否打开，如果已打开则进行第8步，否则进行第5步；&lt;br&gt;5. 判断信号量或线程池是否已满，如果已满进行第8步，否则进行第6步；&lt;br&gt;6. 执行真正的处理方法，如果执行失败或者执行超时则进行第8步，否则进行第9步；&lt;br&gt;7. 更新断路器统计数据；&lt;br&gt;8. 尝试获取fallback，如果成功获取则返回fallback值，否则过程返回失败；&lt;br&gt;9. 一切正常结束，即方法没有正确返回且未超时，则返回正确的最终结果。&lt;br&gt;&lt;br&gt;统计信息：&lt;br&gt;在第5步的时候，如果信号量或线程池满了则更新统计信息；&lt;br&gt;在第6步的时候，无论流程成功与否都会更新统计信息。&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
@@ -364,7 +364,7 @@
             <mxPoint x="1040" y="245" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GamSNAmJj3X3mlx08znm-21" value="execute()：同步方法，内部实际调用了 queue().get() 获得最终的值；&lt;br&gt;queue()：异步方法，内部实际调用了 toObservable().toBlocking().toFuture() 来获取Future，以便后续使用；&lt;br&gt;observe()：内部实际上使用 toObservable() 方法获取cold Observable，然后ReplaySubject来订阅Observable，得到一个hot Observable；&lt;br&gt;toObservable()：所有其他三个方法都需要调用这个方法获取cold Observable。&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=14;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="GamSNAmJj3X3mlx08znm-21" value="execute()：同步方法，内部实际调用了 queue().get() 获得最终的值；&lt;br&gt;queue()：异步方法，内部实际调用了 toObservable().toBlocking().toFuture() 来获取Future，以便后续使用；&lt;br&gt;observe()：内部实际上使用 toObservable() 方法获取cold Observable，然后ReplaySubject来订阅Observable，得到一个hot Observable；&lt;br&gt;toObservable()：所有其他三个方法都需要调用这个方法获取cold Observable。&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=14;fontColor=#333333;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="860" y="510" width="690" height="210" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-22" value="subscribe(ReplaySubject&amp;lt;R&amp;gt; s)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
