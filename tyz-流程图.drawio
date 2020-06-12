@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-06-12T02:51:56.970Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 YaBrowser/20.6.1.115 (beta) Yowser/2.5 Safari/537.36" etag="--tv2PrnPa09PAglW7IE" version="13.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-12T02:59:10.241Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 YaBrowser/20.6.1.115 (beta) Yowser/2.5 Safari/537.36" etag="vK2fzGYhQuO774P5NZzP" version="13.2.3" type="github">
   <diagram id="Wl1f3BuuBHUOXUHPtb7v" name="Hystrix流程图">
     <mxGraphModel dx="1102" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GamSNAmJj3X3mlx08znm-3" value="HystrixCommand方法关系" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#000000;fillColor=#ffffff;gradientColor=none;fontSize=11;width=160;height=30;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="19" y="1010" width="709" height="710" as="geometry" />
+          <mxGeometry x="19" y="1010" width="709" height="800" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-2" value="Hystrix基本流程" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#000000;fillColor=#ffffff;fontSize=11;fontStyle=1;width=100;height=30;" parent="1" vertex="1">
           <mxGeometry x="19" y="20" width="791" height="960" as="geometry" />
@@ -294,91 +294,99 @@
           <mxGeometry x="30" y="740" width="770" height="230" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-4" value="execute(): R" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="88.5" y="1060" width="130" height="30" as="geometry" />
+          <mxGeometry x="129.5" y="1060" width="160.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-5" value="调用" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;shadow=0;labelBackgroundColor=none;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GamSNAmJj3X3mlx08znm-4" target="GamSNAmJj3X3mlx08znm-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="238.5" y="1240" as="targetPoint" />
+            <mxPoint x="279.5" y="1240" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-6" value="queue(): Future&amp;lt;R&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="88.5" y="1150" width="130" height="30" as="geometry" />
+          <mxGeometry x="129.5" y="1150" width="160.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-8" value="future.get(): R" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="463.5" y="1415" width="200" height="30" as="geometry" />
+          <mxGeometry x="521" y="1500" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-9" value="返回" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#82b366;shadow=0;labelBackgroundColor=none;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;" parent="1" source="GamSNAmJj3X3mlx08znm-8" target="GamSNAmJj3X3mlx08znm-4" edge="1">
           <mxGeometry x="-0.2532" relative="1" as="geometry">
-            <mxPoint x="428.5" y="1380" as="targetPoint" />
+            <mxPoint x="469.5" y="1380" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="58.5" y="1430" />
-              <mxPoint x="58.5" y="1075" />
+              <mxPoint x="70" y="1515" />
+              <mxPoint x="70" y="1075" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-11" value="toObservable(): Observable&amp;lt;R&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="348.5" y="1195" width="200" height="30" as="geometry" />
+          <mxGeometry x="389.5" y="1195" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GamSNAmJj3X3mlx08znm-12" value="调用" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;shadow=0;labelBackgroundColor=none;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GamSNAmJj3X3mlx08znm-11" target="GamSNAmJj3X3mlx08znm-13" edge="1">
+        <mxCell id="GamSNAmJj3X3mlx08znm-12" value="调用" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;shadow=0;labelBackgroundColor=none;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GamSNAmJj3X3mlx08znm-11" target="dYD5AvkxTetm4vnI7LR4-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="648.5" y="1235" as="targetPoint" />
+            <mxPoint x="689.5" y="1235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GamSNAmJj3X3mlx08znm-20" value="返回" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=1;fontSize=11;verticalAlign=bottom;fillColor=#d5e8d4;" parent="1" source="GamSNAmJj3X3mlx08znm-13" edge="1">
+        <mxCell id="GamSNAmJj3X3mlx08znm-20" value="返回" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;shadow=0;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=1;fontSize=11;verticalAlign=bottom;fillColor=#d5e8d4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GamSNAmJj3X3mlx08znm-13" edge="1" target="GamSNAmJj3X3mlx08znm-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="186.5" y="1150" as="targetPoint" />
+            <mxPoint x="227.5" y="1150" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="688.5" y="1355" />
-              <mxPoint x="688.5" y="1110" />
-              <mxPoint x="186.5" y="1110" />
+              <mxPoint x="100" y="1435" />
+              <mxPoint x="100" y="1165" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GamSNAmJj3X3mlx08znm-13" value="toBlocking().toFuture(): Future&amp;lt;R&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="463.5" y="1340" width="200" height="30" as="geometry" />
+        <mxCell id="GamSNAmJj3X3mlx08znm-13" value="toFuture(): Future&amp;lt;R&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="521" y="1420" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;shadow=0;labelBackgroundColor=none;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GamSNAmJj3X3mlx08znm-13" target="GamSNAmJj3X3mlx08znm-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="578.5" y="1325" as="targetPoint" />
+            <mxPoint x="619.5" y="1325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-15" value="调用" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;shadow=0;labelBackgroundColor=none;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GamSNAmJj3X3mlx08znm-6" target="GamSNAmJj3X3mlx08znm-11" edge="1">
-          <mxGeometry x="-0.1429" relative="1" as="geometry">
-            <mxPoint x="658.5" y="1245" as="targetPoint" />
-            <mxPoint x="608.5" y="1100" as="sourcePoint" />
+          <mxGeometry x="-0.7232" relative="1" as="geometry">
+            <mxPoint x="699.5" y="1245" as="targetPoint" />
+            <mxPoint x="649.5" y="1100" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="298.5" y="1165" />
-              <mxPoint x="298.5" y="1210" />
+              <mxPoint x="339.5" y="1165" />
+              <mxPoint x="339.5" y="1210" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-16" value="observe(): Observable&amp;lt;R&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="88.5" y="1240" width="160" height="30" as="geometry" />
+          <mxGeometry x="129.5" y="1240" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-17" value="调用" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;shadow=0;labelBackgroundColor=none;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GamSNAmJj3X3mlx08znm-16" target="GamSNAmJj3X3mlx08znm-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="208.5" y="1235" as="targetPoint" />
+          <mxGeometry x="-0.7172" relative="1" as="geometry">
+            <mxPoint x="249.5" y="1235" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-21" value="execute()：同步方法，内部实际调用了 queue().get() 获得最终的值；&lt;br&gt;queue()：异步方法，内部实际调用了 toObservable().toBlocking().toFuture() 来获取Future，以便后续使用；&lt;br&gt;observe()：内部实际上使用 toObservable() 方法获取cold Observable，然后ReplaySubject来订阅Observable，得到一个hot Observable；&lt;br&gt;toObservable()：所有其他三个方法都需要调用这个方法获取cold Observable。&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=14;fontColor=#333333;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="28.5" y="1500" width="690" height="210" as="geometry" />
+          <mxGeometry x="28.5" y="1590" width="690" height="210" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-22" value="subscribe(ReplaySubject&amp;lt;R&amp;gt; s)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="248.5" y="1340" width="190" height="30" as="geometry" />
+          <mxGeometry x="289.5" y="1340" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-23" value="返回" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#82b366;shadow=0;labelBackgroundColor=none;fontSize=11;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;" parent="1" source="GamSNAmJj3X3mlx08znm-22" target="GamSNAmJj3X3mlx08znm-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="208.5" y="1400" as="targetPoint" />
+            <mxPoint x="249.5" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GamSNAmJj3X3mlx08znm-24" value="调用" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;shadow=0;labelBackgroundColor=none;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GamSNAmJj3X3mlx08znm-11" target="GamSNAmJj3X3mlx08znm-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="458.5" y="1380" as="targetPoint" />
-            <mxPoint x="458.5" y="1235" as="sourcePoint" />
+            <mxPoint x="499.5" y="1380" as="targetPoint" />
+            <mxPoint x="499.5" y="1235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYD5AvkxTetm4vnI7LR4-1" value="toBlocking()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="521" y="1340" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dYD5AvkxTetm4vnI7LR4-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="dYD5AvkxTetm4vnI7LR4-1" parent="1" target="GamSNAmJj3X3mlx08znm-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="621" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
