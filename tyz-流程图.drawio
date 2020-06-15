@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-15T09:14:13.466Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 YaBrowser/20.6.1.115 (beta) Yowser/2.5 Safari/537.36" etag="mYkaZSHNfSXtsooD0_j9" version="13.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-06-15T09:15:57.842Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 YaBrowser/20.6.1.115 (beta) Yowser/2.5 Safari/537.36" etag="2hs5RnDCwVi1GhNhZ17I" version="13.2.4" type="github" pages="2">
   <diagram id="Wl1f3BuuBHUOXUHPtb7v" name="Hystrix流程图">
     <mxGraphModel dx="1102" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -876,7 +876,7 @@
         <mxCell id="OhJAq3VDgjwZq7V8_xUF-24" value="复杂的单体应用" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;width=110;height=30;" vertex="1" parent="2w0wRd7n3gLziRLfW05P-1">
           <mxGeometry x="20" y="440" width="790" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="OhJAq3VDgjwZq7V8_xUF-25" value="随着业务越来越复杂，完全分离的后台逻辑变得越来越臃肿，并且不同平台拥有很多相同的逻辑，如商品查询、用户资料修改等。因此需要改变架构，将不同的业务的逻辑抽取出来，供不同的系统调用。" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" vertex="1" parent="2w0wRd7n3gLziRLfW05P-1">
+        <mxCell id="OhJAq3VDgjwZq7V8_xUF-25" value="随着业务越来越复杂，完全分离的后台逻辑变得越来越臃肿，并且不同平台拥有很多相同的逻辑，如商品查询、用户资料修改等。此外，随着业务和模块越来越多，模块之间的调用关系也是越来越复杂。因此需要改变架构，将不同的业务的逻辑抽取出来，供不同的系统调用。" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" vertex="1" parent="2w0wRd7n3gLziRLfW05P-1">
           <mxGeometry x="30" y="910" width="770" height="140" as="geometry" />
         </mxCell>
       </root>
