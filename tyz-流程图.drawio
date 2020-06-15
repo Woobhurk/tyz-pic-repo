@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-15T02:46:54.296Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 YaBrowser/20.6.1.115 (beta) Yowser/2.5 Safari/537.36" etag="i9aexb8tfDxANJFob3l6" version="13.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-15T08:37:10.180Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 YaBrowser/20.6.1.115 (beta) Yowser/2.5 Safari/537.36" etag="alq103q3_ULIILs8BaHg" version="13.2.4" type="github" pages="2">
   <diagram id="Wl1f3BuuBHUOXUHPtb7v" name="Hystrix流程图">
     <mxGraphModel dx="1102" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -681,6 +681,14 @@
         <mxCell id="dYD5AvkxTetm4vnI7LR4-171" value="1、直接降级，如果逻辑失败则直接获取降级的返回值；&lt;br&gt;2、故障转移，如果逻辑失败则转移到下一个HystrixCommand中，形成链式的降级；&lt;br&gt;3、双模式，系统中有两套不一样的逻辑，主逻辑和故障转移，在配置中使用不同的逻辑来返回不同的结果。" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=14;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="30" y="3240" width="770" height="190" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="z_LuzzDigMFXw3H3hmn-" name="微服务架构演变">
+    <mxGraphModel dx="1102" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="2w0wRd7n3gLziRLfW05P-0" />
+        <mxCell id="2w0wRd7n3gLziRLfW05P-1" parent="2w0wRd7n3gLziRLfW05P-0" />
       </root>
     </mxGraphModel>
   </diagram>
