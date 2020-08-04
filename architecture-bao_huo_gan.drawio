@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T08:11:51.785Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 YaBrowser/20.7.3.75 (beta) Yowser/2.5 Safari/537.36" etag="E-p94N8FL_SMF63WAR14" version="13.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T08:17:58.677Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 YaBrowser/20.7.3.75 (beta) Yowser/2.5 Safari/537.36" etag="eI1k-vvP-0obRyFm5t2-" version="13.5.9" type="github">
   <diagram id="1bCNgV_drRjvz0shBA7y" name="Page-1">
     <mxGraphModel dx="1102" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -156,6 +156,12 @@
         </mxCell>
         <mxCell id="Akp1j36LhRfIPDxdq11B-59" value="定时任务" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;align=center;strokeColor=#6c8ebf;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="510" y="270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Akp1j36LhRfIPDxdq11B-60" value="工单API" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;align=center;strokeColor=#6c8ebf;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="110" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Akp1j36LhRfIPDxdq11B-61" value="保单API" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;align=center;strokeColor=#6c8ebf;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="150" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
